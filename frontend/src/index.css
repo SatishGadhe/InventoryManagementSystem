@@ -1,0 +1,33 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for better UX (optional) */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Inter font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
